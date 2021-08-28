@@ -30,5 +30,7 @@ public class TestArrayList {
             list.remove(1);                      // метод удаления объекта под индексом 0 "в нашем случае"
             System.out.println(list);
 
+            boolean remove = list.remove(list);         // проверяем удален ли list
+            System.out.println(remove);
         }
     }
