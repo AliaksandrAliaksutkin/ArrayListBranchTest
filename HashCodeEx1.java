@@ -71,7 +71,7 @@ public class HashCodeEx1 {
             return Objects.hash(name, surname, course);
         }
 
- 
+
         //своя реализации для примера
 
 //        @Override
@@ -86,4 +86,3 @@ public class HashCodeEx1 {
     }
 
 
-}
