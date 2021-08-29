@@ -28,6 +28,6 @@ public class HashSetEx2 {
 
         HashSet<Integer> subtract = new HashSet<>(hashSet1); // разность
         subtract.removeAll(hashSet2);
-        System.out.println(subtract); 
+        System.out.println(subtract);
     }
 }
